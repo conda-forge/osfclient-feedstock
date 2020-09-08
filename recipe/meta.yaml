@@ -1,6 +1,6 @@
 {% set name = "osfclient" %}
-{% set version = "0.0.3" %}
-{% set sha256 = "26a0d8f5611f50b8e3ff37a0ce37959e77fbc6941d180aecd9b4242e75d69823" %}
+{% set version = "0.0.4" %}
+{% set sha256 = "d4cd030b4146fdfebe4fbb22f9034881adaf9893eed9db72c78022e77acca2cf" %}
 
 package:
   name: {{ name|lower }}
@@ -37,9 +37,9 @@ about:
   home: http://osfclient.readthedocs.io/
   license: BSD-3-Clause
   license_family: BSD
-  license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE'
-  summary: 'An OSF command-line library.'
-  description: 'An OSF command-line client and library.'
+  license_file: {{ environ["RECIPE_DIR"] }}/LICENSE
+  summary: An OSF command-line library.
+  description: An OSF command-line client and library.
   doc_url: http://osfclient.readthedocs.io/
   dev_url: https://github.com/dib-lab/osf-cli
 
