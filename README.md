@@ -5,9 +5,13 @@ Home: http://osfclient.readthedocs.io/
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/osfclient-feedstock/blob/master/LICENSE.txt)
 
 Summary: An OSF command-line library.
+
+Development: https://github.com/dib-lab/osf-cli
+
+Documentation: http://osfclient.readthedocs.io/
 
 An OSF command-line client and library.
 
@@ -116,5 +120,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@darienmorrow](https://github.com/darienmorrow/)
+* [@ksunden](https://github.com/ksunden/)
 * [@untzag](https://github.com/untzag/)
 
