@@ -1,6 +1,6 @@
 {% set name = "osfclient" %}
-{% set version = "0.0.4" %}
-{% set sha256 = "d4cd030b4146fdfebe4fbb22f9034881adaf9893eed9db72c78022e77acca2cf" %}
+{% set version = "0.0.5" %}
+{% set sha256 = "47c92bbdce57ecc0ed87eabe459025cc549080c48b28ebc86bfc5d82545a75c8" %}
 
 package:
   name: {{ name|lower }}
@@ -11,14 +11,14 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: python setup.py install --single-version-externally-managed --record record.txt
   entry_points:
     - osf = osfclient.__main__:main
 
 requirements:
-  build:
+  host:
     - python
     - setuptools
   run:
